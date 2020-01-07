@@ -21,48 +21,139 @@ section.quad {
 #a {
   height: 73px;
   width: 478px;
+  line-height: 73px;
 }
 
 #b {
   height: 148px;
   width: 478px;
+  line-height: 148px;
 }
 
 #c {
   height: 123px;
   width: 478px;
+  line-height: 123px;
 }
 
 #d {
   height: 123px;
   width: 478px;
+  line-height: 123px;
 }
 
 #e {
   height: 248px;
-  width: 238px;
+  width: 239px;
+  line-height: 248px;
   float: left;
 }
 
 #f {
   height: 248px;
-  width: 238px;
+  width: 239px;
+  line-height: 248px;
   float: left;
 }
 
 #g {
   height: 248px;
-  width: 238px;
+  width: 239px;
+  line-height: 248px;
   float: left;
 }
 
 #h {
   height: 248px;
-  width: 238px;
+  width: 239px;
+  line-height: 248px;
   float: left;
 }
 
 #i {
   height: 78px;
   width: 478px;
+  line-height: 78px;
+}
+
+@media (min-width: 960px) {
+  body {
+    height: 768px;
+    width: 960px;
+    margin: 20px auto;
+  }
+
+  div {
+    background-color: gray;
+  }
+
+  section.double {
+    overflow: hidden;
+  }
+
+  section.quad {
+    overflow: hidden;
+  }
+
+  #a {
+    height: 98px;
+    width: 958px;
+    line-height: 98px;
+  }
+  
+  #b {
+    height: 598px;
+    width: 200px;
+    line-height: 598px;
+    float: left;
+  }
+  
+  #c {
+    height: 199px;
+    width: 379px;
+    line-height: 199px;
+    float: left;
+  }
+  
+  #d {
+    height: 199px;
+    width: 379px;
+    line-height: 199px;
+    float: left;
+  }
+  
+  #e {
+    height: 249px;
+    width: 190px;
+    line-height: 249px;
+    float: left;
+  }
+  
+  #f {
+    height: 249px;
+    width: 189px;
+    line-height: 249px;
+    float: left;
+  }
+  
+  #g {
+    height: 249px;
+    width: 190px;
+    line-height: 249px;
+    float: left;
+  }
+  
+  #h {
+    height: 249px;
+    width: 189px;
+    line-height: 249px;
+    float: left;
+  }
+  
+  #i {
+    height: 150px;
+    width: 758px;
+    line-height: 150px;
+    float: left;
+  }
 }
