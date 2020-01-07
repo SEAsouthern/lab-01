@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 480px;
+  height: 767px;
+}
+
+div {
+  background-color: lightgray;
+  border: black;
+  border-style: solid;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+section.quad {
+  overflow: hidden;
+}
+
+#a {
+  height: 73px;
+  width: 478px;
+}
+
+#b {
+  height: 148px;
+  width: 478px;
+}
+
+#c {
+  height: 123px;
+  width: 478px;
+}
+
+#d {
+  height: 123px;
+  width: 478px;
+}
+
+#e {
+  height: 248px;
+  width: 238px;
+  float: left;
+}
+
+#f {
+  height: 248px;
+  width: 238px;
+  float: left;
+}
+
+#g {
+  height: 248px;
+  width: 238px;
+  float: left;
+}
+
+#h {
+  height: 248px;
+  width: 238px;
+  float: left;
+}
+
+#i {
+  height: 78px;
+  width: 478px;
+}
